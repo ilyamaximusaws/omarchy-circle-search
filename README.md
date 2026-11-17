@@ -38,14 +38,14 @@ omarchy pkg add translate-shell tesseract-data-rus
 Из Git-репозитория:
 
 ```sh
-omarchy plugin add <git-url> --enable --yes
+omarchy plugin add https://github.com/ilyamaximusaws/omarchy-circle-search.git --enable --yes
 omarchy restart shell
 ```
 
 Для локальной разработки:
 
 ```sh
-git clone <git-url> ~/.config/omarchy/plugins/angelos.circle-search
+git clone https://github.com/ilyamaximusaws/omarchy-circle-search.git ~/.config/omarchy/plugins/angelos.circle-search
 omarchy plugin enable angelos.circle-search
 omarchy restart shell
 ```

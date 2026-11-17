@@ -5,6 +5,7 @@
   "version": "0.1.0",
   "author": "Iliya Brook",
   "license": "MIT",
+  "repository": "https://github.com/ilyamaximusaws/omarchy-circle-search",
   "description": "Circle to Search for Omarchy: freeze the screen, select regions or text, OCR, translate, copy, search with Google Lens, and annotate in Omasnap. Ported from angelOS by MixaDoDs.",
   "kinds": ["overlay"],
   "keepLoaded": true,
