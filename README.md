@@ -58,13 +58,13 @@ omarchy restart shell
 omarchy-shell shell summon angelos.circle-search '{}'
 ```
 
-Отдельная клавиша в `~/.config/hypr/bindings.lua`:
+Замена штатного Screenshot в `~/.config/hypr/bindings.lua`:
 
 ```lua
-o.bind("SUPER + SHIFT + C", "Circle Search", "omarchy-shell shell summon angelos.circle-search '{}'")
+o.rebind("SUPER + SHIFT + S", "Circle Search", "omarchy-shell shell summon angelos.circle-search '{}'")
 ```
 
-Обычный скриншотер на `SUPER + SHIFT + S` при этом не заменяется.
+`SUPER + SHIFT + S` раньше запускал `omarchy-capture-screenshot`; теперь эта клавиша открывает Circle Search. Capture menu, Share и запись экрана не меняются.
 
 ## Структура
 
