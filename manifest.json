@@ -1,0 +1,14 @@
+{
+  "schemaVersion": 1,
+  "id": "angelos.circle-search",
+  "name": "Circle Search",
+  "version": "0.1.0",
+  "author": "Iliya Brook",
+  "license": "MIT",
+  "description": "Circle to Search for Omarchy: freeze the screen, select regions or text, OCR, translate, copy, search with Google Lens, and annotate in Omasnap. Ported from angelOS by MixaDoDs.",
+  "kinds": ["overlay"],
+  "keepLoaded": true,
+  "entryPoints": {
+    "overlay": "CircleSearchOverlay.qml"
+  }
+}
